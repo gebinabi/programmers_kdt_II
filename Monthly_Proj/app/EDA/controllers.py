@@ -4,4 +4,8 @@ EDA = Blueprint('EDA', __name__, url_prefix='/EDA')
 
 @EDA.route('/', methods=['GET'])
 def show_EDA():
-    return render_template("view_EDA/index.html")
+    return render_template("view_EDA/EDA_note.html")
+
+@EDA.route('/note/', methods=['GET'])
+def show_EDA_note():
+    return render_template("view_EDA/EDA_note.html")
