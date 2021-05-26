@@ -16,7 +16,7 @@ THREADS_PER_PAGE = 2
 CSRF_ENABLED = True
 
 # Use a secure, unique and absolutely secret key for signing the data.
-CSRF_SESSION_KEY = "7cbbbfb46e4300823a400ec799c32b828b391d47fd403360"
+CSRF_SESSION_KEY = "0ee041e727edcb62aef0e6dcf31ab259fd841685121d21e2"
 
 # Secret key for signing cookies
-SECRET_KEY = "7cbbbfb46e4300823a400ec799c32b828b391d47fd403360"
+SECRET_KEY = "0ee041e727edcb62aef0e6dcf31ab259fd841685121d21e2"
